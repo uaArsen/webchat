@@ -1,1 +1,7 @@
-
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/webchat}
+    username: ${DB_USERNAME:postgre}
+    password: ${DB_PASSWORD:root}
+    database: ${DB_DATABASE:webchat}
+    driverClassName: org.postgresql.Driver
