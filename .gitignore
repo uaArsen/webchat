@@ -2,8 +2,10 @@ HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+.class
+*.log
+*.jar
+*.war
 
 ### STS ###
 .apt_generated
